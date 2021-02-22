@@ -1,0 +1,31 @@
+{
+  "name": "bit-cenisoft-bookstore-api",
+  "version": "0.3.0",
+  "description": "API to manange BIT Cenisoft BookStore APP data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "API",
+    "Bookstore"
+  ],
+  "author": "Jeisson Francois Rosas Céspedes <jeisson.rosas@bit.institute>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "multer": "^1.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefraroce/bit-cenisoft-bs-api-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jefraroce/bit-cenisoft-bs-api-template/issues"
+  },
+  "homepage": "https://github.com/jefraroce/bit-cenisoft-bs-api-template#readme"
+}
